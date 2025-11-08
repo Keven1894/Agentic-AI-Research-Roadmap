@@ -44,7 +44,7 @@ This document outlines the detailed timeline for establishing the Agentic-AI Eng
 - ✅ Workshop Paper (6-8 pages, IEEE format)
   - Title: *"From LLM Theory to Agentic Practice: Toward a Systematic Framework for Production-Grade AI Agents"*
   - Sections: Abstract, Introduction, Related Work, Methodology, Preliminary Cases, Discussion, Future Work
-  - Include: Framework diagram, methodology overview, 2 preliminary use cases (EnviStor & Virtual Guard)
+  - Include: Framework diagram, methodology overview, 2 preliminary use cases (EnviStor & Multi-agent coordination)
 - ✅ GitHub Repository Launch
   - README with framework overview
   - Research roadmap document

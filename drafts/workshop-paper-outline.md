@@ -19,7 +19,7 @@ Alternative titles:
 
 ## Abstract (180 words)
 
-Large Language Models (LLMs) demonstrate remarkable reasoning capabilities but struggle in production environments due to non-deterministic behavior, context loss across sessions, and lack of systematic learning from experience. While LLMs excel as "theorists," real-world applications require "practitioners" — agents that operate reliably, accumulate knowledge, and evolve through structured feedback. This paper introduces the **Agentic-AI Engineering Framework**, the first systematic methodology for building production-grade AI agents through a closed learning loop: **Context Capture → Documentation → Indexing → RAG → Fine-Tuning**. Each stage strengthens the next: operational traces become documented knowledge, which is indexed for retrieval, grounds agent reasoning through RAG, and ultimately enables specialized fine-tuning. We validate this framework through preliminary deployment across diverse domains including environmental data management (EnviStor), multi-agent coordination (Virtual Guard), and digital library operations, demonstrating 30% average reduction in manual intervention and improved consistency in decision-making. Our framework transforms ephemeral AI experiments into continuous, evidence-based systems that learn from doing, document their reasoning, and evolve over time. We provide an open-source implementation and research roadmap to establish agentic AI engineering as a systematic discipline.
+Large Language Models (LLMs) demonstrate remarkable reasoning capabilities but struggle in production environments due to non-deterministic behavior, context loss across sessions, and lack of systematic learning from experience. While LLMs excel as "theorists," real-world applications require "practitioners" — agents that operate reliably, accumulate knowledge, and evolve through structured feedback. This paper introduces the **Agentic-AI Engineering Framework**, the first systematic methodology for building production-grade AI agents through a closed learning loop: **Context Capture → Documentation → Indexing → RAG → Fine-Tuning**. Each stage strengthens the next: operational traces become documented knowledge, which is indexed for retrieval, grounds agent reasoning through RAG, and ultimately enables specialized fine-tuning. We validate this framework through preliminary deployment across diverse domains including environmental data management (EnviStor), multi-agent coordination systems, and digital library operations, demonstrating 30% average reduction in manual intervention and improved consistency in decision-making. Our framework transforms ephemeral AI experiments into continuous, evidence-based systems that learn from doing, document their reasoning, and evolve over time. We provide an open-source implementation and research roadmap to establish agentic AI engineering as a systematic discipline.
 
 ---
 
@@ -252,7 +252,7 @@ Plan → Implement → Verify → Document → Summarize → Iterate
 - Documentation of edge cases invaluable for future processing
 - Context persistence enables learning from rare anomalies
 
-### 5.2 Case Study 2: Multi-Agent Coordination (Virtual Guard)
+### 5.2 Case Study 2: Multi-Agent Coordination System
 **Domain:** IT operations and system monitoring
 
 **Challenge:**

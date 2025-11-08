@@ -40,7 +40,7 @@ Each stage strengthens the next, transforming one-off AI experiments into **cont
 This framework emerged from **10+ real-world agent applications** across:
 - 🌍 GIS and environmental data (EnviStor, buoy data processing)
 - 📚 Digital libraries (Dataverse metadata curation)
-- 💻 IT operations (Virtual Guard multi-agent systems)
+- 💻 IT operations (multi-agent coordination systems)
 - 🎓 Education and research support
 
 After months of hands-on development, clear patterns emerged:

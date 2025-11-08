@@ -167,7 +167,7 @@ Each domain provides:
 | **Digital Libraries / Dataverse** | Metadata repair, multi-language catalog enrichment | Improve retrieval precision and data interoperability |
 | **Education / Research Support** | AI teaching assistants, paper summarization, topic generation | Demonstrate knowledge transfer and adaptive learning |
 | **Software & IT Operations** | Log summarization, anomaly triage, auto-fix suggestions | Evaluate feedback loop for system self-healing |
-| **Industry Applications (e.g., Virtual Guard)** | Multi-agent stateful WebSocket coordination | Measure operational reliability of agentic orchestration |
+| **Industry Applications** | Multi-agent coordination and system orchestration | Measure operational reliability of agentic orchestration |
 
 ---
 
@@ -238,7 +238,7 @@ We are actively seeking partnerships in:
 | **Publications** | Peer-reviewed papers (PEARC, JCDL, AI-Engineering venues) |
 | **Education** | Agentic-AI course modules and tutorials for developers |
 | **Datasets** | Curated agent-interaction logs for research use |
-| **Industry Pilots** | Operational agents in Virtual Guard, EnviStor, and Beacon projects |
+| **Industry Pilots** | Operational agents in production environments and research projects |
 
 ### Publication Strategy
 

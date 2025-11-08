@@ -79,7 +79,7 @@ We are validating this framework across multiple domains:
 | **Digital Libraries** | Metadata repair, catalog enrichment (Dataverse) | Improve retrieval precision |
 | **Education** | AI teaching assistants, research support | Demonstrate adaptive learning |
 | **IT Operations** | Log analysis, system self-healing | Evaluate feedback loops |
-| **Industry Applications** | Multi-agent coordination (Virtual Guard) | Measure operational reliability |
+| **Industry Applications** | Multi-agent coordination systems | Measure operational reliability |
 
 ## Engineering Framework
 

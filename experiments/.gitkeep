@@ -7,7 +7,7 @@ This directory will contain experimental code and analysis scripts.
 ```
 experiments/
 ├── envisor/          # Environmental data management case study
-├── virtual-guard/    # Multi-agent coordination case study
+├── multi-agent/      # Multi-agent coordination case study
 ├── dataverse/        # Digital library metadata case study
 ├── education/        # Educational AI assistant case study
 ├── common/           # Shared utilities and tools
