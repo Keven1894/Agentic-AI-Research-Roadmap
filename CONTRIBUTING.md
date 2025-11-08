@@ -130,7 +130,7 @@ Contributors will be acknowledged in:
 
 ## Questions?
 
-- Open a [GitHub Discussion](https://github.com/[your-username]/agentic-ai-lab/discussions)
+- Open a [GitHub Discussion](https://github.com/Keven1894/Agentic-AI-Research-Roadmap/discussions)
 - Email: bguan@fiu.edu
 
 ## License

@@ -21,7 +21,7 @@ This guide explains how to integrate this repository with Zenodo to obtain a per
 
 1. Go to Zenodo → Settings → [GitHub](https://zenodo.org/account/settings/github/)
 2. Click "Sync now" to fetch your repositories
-3. Find `agentic-ai-lab` in the list
+3. Find `Agentic-AI-Research-Roadmap` in the list
 4. Toggle the switch to **ON** to enable Zenodo integration
 
 ### Step 3: Create First Release

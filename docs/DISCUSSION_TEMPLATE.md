@@ -211,7 +211,7 @@ This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/
   title = {Agentic-AI Engineering Framework},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/[your-username]/agentic-ai-lab},
+  url = {https://github.com/Keven1894/Agentic-AI-Research-Roadmap},
   note = {First released: November 8, 2025}
 }
 ```

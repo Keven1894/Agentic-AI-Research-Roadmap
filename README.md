@@ -56,7 +56,7 @@ Establish a **repeatable, scalable, and evaluable Agentic-AI engineering framewo
 ## Repository Structure
 
 ```
-agentic-ai-lab/
+Agentic-AI-Research-Roadmap/
 ├── README.md                          # This file
 ├── docs/
 │   ├── Agentic-AI-Research-Roadmap.md # Complete research roadmap
