@@ -139,7 +139,9 @@ _templates/
 *.code-workspace
 
 # Cursor
-.cursor/
+!.cursor/
+.cursor/*
+!.cursor/rules.md
 
 # Sublime Text
 *.sublime-project

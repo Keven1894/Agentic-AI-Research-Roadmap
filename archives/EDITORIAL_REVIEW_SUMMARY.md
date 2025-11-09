@@ -221,17 +221,21 @@ Agent-AI-Research-Roadmap/
 ├── .gitignore                        ✅ Complete
 ├── CITATION.cff                      ✅ Ready (add DOI after Zenodo)
 ├── CONTRIBUTING.md                   ✅ Complete (with agentic ethos)
-├── ZENODO_INTEGRATION.md             ✅ Complete guide
-├── EDITORIAL_REVIEW_SUMMARY.md       ✅ This document
 ├── docs/
 │   ├── Agentic-AI-Research-Roadmap.md    ✅ arXiv-ready
 │   ├── Research-Timeline-2025-2027.md    ✅ Complete
 │   ├── getting-started.md                ✅ Complete
-│   └── DISCUSSION_TEMPLATE.md            ✅ Ready to post
+│   ├── DISCUSSION_TEMPLATE.md            ✅ Ready to post
+│   └── ZENODO_INTEGRATION.md             ✅ Complete guide
 ├── drafts/
 │   └── workshop-paper-outline.md         ✅ Ready for full draft
+├── meta/                             ✅ Metadata manifests
+├── governance/                       📁 Reserved for rules/templates
 ├── figures/                          📁 Awaiting diagrams
-└── experiments/                      📁 Awaiting code
+├── experiments/                      📁 Awaiting code
+└── archives/
+    ├── EDITORIAL_REVIEW_SUMMARY.md   ✅ This document
+    └── context.log                   🗃️ Archived context transcript
 ```
 
 ---

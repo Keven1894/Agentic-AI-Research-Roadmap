@@ -1,0 +1,77 @@
+project:
+  name: Agentic-AI-Research-Roadmap
+  version: 1.0.1
+  last_updated: 2025-11-09
+  description: >
+    Research program hub for the Agentic-AI Engineering Framework and related
+    documentation, timelines, and paper drafts.
+directories:
+  root:
+    purpose: Primary entry point for collaborators and citation metadata.
+    key_files:
+      - README.md
+      - CONTRIBUTING.md
+      - LICENSE
+      - CITATION.cff
+    notes: >
+      These files must remain accessible at the repository root to preserve DOI
+      integration, contribution policy, and licensing clarity.
+  docs:
+    purpose: Authoritative documentation, research roadmap, guides.
+    key_files:
+      - docs/Agentic-AI-Research-Roadmap.md
+      - docs/Research-Timeline-2025-2027.md
+      - docs/getting-started.md
+      - docs/co-agenticOS-integration-guide.md
+      - docs/DISCUSSION_TEMPLATE.md
+      - docs/ZENODO_INTEGRATION.md
+    notes: >
+      All published documents should be referenced from README and .cursor rules.
+  drafts:
+    purpose: In-progress manuscripts and outlines.
+    key_files:
+      - drafts/workshop-paper-outline.md
+      - drafts/REVIEW_FEEDBACK_ACTION_PLAN.md
+      - drafts/USER_INPUT_NEEDED.md
+    notes: >
+      Content here is pre-publication; do not cite externally without review.
+  experiments:
+    purpose: Reserved for future experimental code and notebooks.
+    key_files: []
+    notes: >
+      Currently empty; populate with validated experiment artifacts only.
+  figures:
+    purpose: Diagram specifications and design assets.
+    key_files:
+      - figures/dual-helix-diagram-spec.md
+    notes: >
+      Final renderings should be exported alongside figure specs when available.
+  archives:
+    purpose: Historical transcripts, review summaries, and superseded artifacts.
+    key_files:
+      - archives/context.log
+      - archives/EDITORIAL_REVIEW_SUMMARY.md
+    notes: >
+      Material here informs historical decisions; avoid modifying content except
+      to append archival metadata.
+  governance:
+    purpose: Reserved for governance assets (rule templates, compliance logs).
+    key_files: []
+    notes: >
+      Placeholder for upcoming co-agenticOS governance artifacts.
+  cursor:
+    purpose: AI assistant configuration and collaboration policies.
+    key_files:
+      - .cursor/rules.md
+    notes: >
+      Update after any structural change so automation follows current guidelines.
+metadata:
+  maintainers:
+    - name: Dr. Boyuan (Keven) Guan
+      affiliation: FIU Library & GIS Center
+      contact: bguan@fiu.edu
+  citation:
+    doi: 10.5281/zenodo.17561541
+    file: CITATION.cff
+    notes: Update after new Zenodo releases.
+

@@ -1,0 +1,62 @@
+{
+  "version": "2025-11-09",
+  "collections": [
+    {
+      "name": "core",
+      "description": "High-level project documentation and governance references.",
+      "paths": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "CITATION.cff",
+        "docs/Agentic-AI-Research-Roadmap.md",
+        "docs/Research-Timeline-2025-2027.md",
+        "docs/ZENODO_INTEGRATION.md",
+        "docs/getting-started.md",
+        "docs/co-agenticOS-integration-guide.md"
+      ]
+    },
+    {
+      "name": "drafts",
+      "description": "Working papers, outlines, and feedback trackers.",
+      "paths": [
+        "drafts/workshop-paper-outline.md",
+        "drafts/REVIEW_FEEDBACK_ACTION_PLAN.md",
+        "drafts/USER_INPUT_NEEDED.md"
+      ]
+    },
+    {
+      "name": "archives",
+      "description": "Historical transcripts and editorial summaries for provenance.",
+      "paths": [
+        "archives/context.log",
+        "archives/EDITORIAL_REVIEW_SUMMARY.md"
+      ]
+    },
+    {
+      "name": "figures",
+      "description": "Visual specifications and diagram instructions.",
+      "paths": [
+        "figures/dual-helix-diagram-spec.md"
+      ]
+    },
+    {
+      "name": "meta",
+      "description": "Metadata, manifests, and indexing support files.",
+      "paths": [
+        "meta/README.md",
+        "meta/directory-index.yaml",
+        "meta/search-manifest.json",
+        ".cursor/rules.md"
+      ]
+    },
+    {
+      "name": "governance",
+      "description": "Future governance templates and compliance assets.",
+      "paths": [
+        "governance/"
+      ]
+    }
+  ]
+}
+
