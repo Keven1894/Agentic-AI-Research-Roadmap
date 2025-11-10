@@ -1,7 +1,7 @@
 project:
   name: Agentic-AI-Research-Roadmap
-  version: 1.0.1
-  last_updated: 2025-11-09
+  version: 1.0.2
+  last_updated: 2025-11-10
   description: >
     Research program hub for the Agentic-AI Engineering Framework and related
     documentation, timelines, and paper drafts.
@@ -36,22 +36,24 @@ directories:
     notes: >
       Content here is pre-publication; do not cite externally without review.
   experiments:
-    purpose: Reserved for future experimental code and notebooks.
-    key_files: []
+    purpose: Experimental code, validation artifacts, and research materials.
+    key_files:
+      - experiments/dataverse-diva/README.md
+      - experiments/dataverse-diva/local-llm-study/
+      - experiments/dataverse-diva/institutional-memory/
     notes: >
-      Currently empty; populate with validated experiment artifacts only.
+      DIVA case study artifacts include LLM evaluation, rules-as-memory system, and production metrics.
   figures:
     purpose: Diagram specifications and design assets.
     key_files:
       - figures/dual-helix-diagram-spec.md
+      - figures/dataverse-diva/README.md
+      - figures/dataverse-diva/llm-accuracy-comparison.md
+      - figures/dataverse-diva/schema-impact-chart.md
+      - figures/dataverse-diva/framework-validation-stages.md
+      - figures/dataverse-diva/skills-matrix-progression.md
     notes: >
-      Final renderings should be exported alongside figure specs when available.
-  case_studies:
-    purpose: Production-validated applications illustrating the framework.
-    key_files:
-      - docs/case-studies/dataverse-diva.md
-    notes: >
-      Each case study should reference its archived source data and align with publication roadmap.
+      DIVA figure specs include LLM performance, schema impact, framework validation, and learning progression visualizations. Final renderings pending.
   archives:
     purpose: Historical transcripts, review summaries, and superseded artifacts.
     key_files:
@@ -80,4 +82,5 @@ metadata:
     doi: 10.5281/zenodo.17561541
     file: CITATION.cff
     notes: Update after new Zenodo releases.
+
 
