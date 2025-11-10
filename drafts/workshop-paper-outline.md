@@ -385,68 +385,43 @@ This enables **automated accountability**: governance violations are caught in d
 - Context persistence enables learning from rare anomalies
 - **Governance enables deployment in regulated environments** (e.g., environmental monitoring)
 
-### 5.2 Case Study 2: DIVA - Digital Library AI Agent
-**Domain:** Digital libraries and institutional repositories (Dataverse)
+### 5.2 Case Study 2: DIVA - Production-Scale Framework Validation
+**Domain:** Digital libraries and institutional repositories (Dataverse at FIU)
 
-**Challenge:**
-- Manage complex institutional repository system (Dataverse) with 50+ subsystems
-- Maintain institutional knowledge across AI sessions (session amnesia problem)
-- Deploy local LLMs for sensitive document comprehension (privacy requirement)
-- Combine system administration and core development in single agent
-- Document and track agent skill acquisition over time
+DIVA (Dataverse Intelligent Virtual Assistant) represents the first production deployment implementing the complete Agentic-AI Engineering Framework in an institutional setting. Operating at Florida International University Libraries since mid-2025, DIVA serves simultaneously as system administrator and core developer, integrating directly with Payara servers, PostgreSQL databases, and Dataverse institutional repository infrastructure.
 
-**Application of Dual-Helix Framework:**
+**Challenge & Context:**
+The deployment addressed fundamental production challenges: maintaining institutional knowledge across AI sessions (session amnesia), deploying local LLMs for sensitive document comprehension (privacy requirement), combining system administration and development roles in a single agent, and measuring quantifiable skill acquisition over time. The system manages 50+ interconnected subsystems in a complex research data management environment.
 
-**Learning Pipeline:**
-- **Context:** Multi-dimensional capture (system logs, code, user interactions, decisions, 50+ sessions)
-- **Documentation:** 157+ files, 10,000+ lines (95% quality), hierarchical organization
-- **Indexing:** Tiered rules-as-memory system (87% token reduction), searchable knowledge base
-- **RAG:** Schema-based document comprehension (+23% accuracy improvement on 3B local LLM)
-- **Fine-tuning:** Dataset prepared from 3+ months production operation (ready for training)
+**Dual-Helix Framework Implementation:**
 
-**Governance Layer:**
-- **Rules:** Multi-role bounded autonomy (system admin + developer), plan-first discipline (100% adherence)
-- **Coordination:** N/A (single-agent, but demonstrates institutional memory pattern for future multi-agent)
-- **Boundaries:** Project-level isolation, tiered configuration (0=identity, 1=standards, 2=external refs)
-- **Verification:** Pre-execution planning required, human approval for deviations, code review
-- **Audit:** Complete git history, decision logs, learning journey documentation (timeline + skills matrix)
+**Learning Pipeline (Stages 1-5):**
+1. **Context Capture:** Multi-dimensional (system logs, code, user interactions, decisions across 50+ sessions)
+2. **Documentation:** 157+ files totaling 10,000+ lines at 95% quality with hierarchical organization
+3. **Indexing:** Tiered rules-as-memory system achieving 87% token reduction while maintaining searchability
+4. **RAG:** Schema-based document comprehension yielding 52.6% accuracy on local 3B LLM (+23% vs. raw prompting)
+5. **Fine-Tuning:** Dataset prepared from 3+ months operational traces (training-ready)
+
+**Governance Layer (co-agenticOS):**
+Multi-role bounded autonomy with plan-first discipline (100% adherence), project-level isolation via tiered configuration (Tier 0=identity, Tier 1=standards, Tier 2=external references), pre-execution planning requirement with human approval gates, and comprehensive audit trails through git history and learning journey documentation (timeline + skills matrix).
 
 **Production-Validated Results (3+ months):**
-- **Framework Stage Validation:**
-  - Context: ✅ Multi-dimensional capture validated
-  - Documentation: ✅ 10,000+ lines (95% quality)
-  - Indexing: ✅ 100% consistency via rules-as-memory
-  - RAG: ✅ 52.6% local LLM accuracy (3B model)
-  - Fine-tuning: 🔄 Data prepared, ready for training
-  
-- **Quantitative Impact:**
-  - Documentation: +685% files, +900% lines, -83% update time
-  - Code generated: 11,500+ lines (Java, JavaScript, Python)
-  - Deployments: 50+ with 100% success rate
-  - System uptime: 100% (zero incidents)
-  - Time savings: 60-100 hours/month
-  - Productivity gain: +50% improvement
-  - ROI: 50-100x (cost vs savings)
-  
-- **Novel Research Contributions:**
-  - Schema-based context: +23% LLM accuracy (validated with 190 tests)
-  - Institutional memory: 100% procedural consistency, 87% token efficiency
-  - Model censorship discovery: 1B models refuse credentials (40% refusal rate)
-  - Agent skill tracking: Quantifiable proficiency progression over 3 months
-  
-- **Governance Effectiveness:**
-  - Plan-first discipline: 100% adherence (from 60% baseline)
-  - Security incidents: 0 (zero violations)
-  - Consistency: 100% across procedures (email, deployment, document access)
-  - Team satisfaction: 9.2/10
 
-**Key Lessons:**
-- **Rules-as-memory solves session amnesia:** Persistent institutional knowledge without fine-tuning
-- **Schema engineering critical for small LLMs:** Structured context outperforms raw documents (+23%)
-- **Multi-role single agent validated:** System admin + developer combination effective in production
-- **Documentation is training data:** High-quality corpus enables future fine-tuning
-- **Bounded autonomy enables trust:** Clear constraints allow deployment in institutional setting
-- **First domain-specific library/repository AI agent:** No known competitors in this specialized domain
+Over the operational period, DIVA executed 50+ deployments at 100% success rate, generated 11,500+ lines of code (Java, JavaScript, Python), and maintained 100% system uptime with zero security incidents. Quantitative evaluation demonstrated 83-92% reduction in documentation update time, 60-100 hours monthly time savings, +685% increase in documentation files, and +50% productivity improvement (ROI: 50-100x).
+
+**Novel Technical Contributions:**
+- **Schema-as-chunking paradigm:** +23% accuracy improvement on implicit relationships (validated with 190 tests on Llama 3.2 3B)
+- **Rules-as-memory architecture:** 100% procedural consistency across sessions, 87% token efficiency vs. flat configuration
+- **Model behavioral characteristics:** Discovered 1B model censorship (40% credential refusal rate) affecting task suitability
+- **Quantifiable skill progression:** Measurable advancement from 8 unstarted skills to 3 master-level + 7 advanced capabilities
+
+**Human-AI Collaboration Validation:**
+DIVA's bounded-autonomy design and natural communication style achieved 9.2/10 team satisfaction, demonstrating that trustful human-AI collaboration emerges through transparent authority boundaries, continuous documentation feedback loops, and explicit constraint communication. Learning logs show systematic competence growth: +6 advanced-level skills in 3 months with decreasing supervision requirements.
+
+**Framework Validation Significance:**
+DIVA validates the core thesis that **agents can learn operational competence from production practice, not only from pre-training**—closing the loop between "doing" and "knowing." The deployment proves production-readiness of the dual-helix approach: agents evolved through structured experience (learning helix) while operating within verifiable boundaries (governance helix), achieving both capability growth and institutional trust simultaneously.
+
+**Note:** A dedicated full paper on DIVA's architecture, learning metrics, and domain-specific design patterns is in preparation for JCDL 2026.
 
 ### 5.3 Cross-Case Insights
 
