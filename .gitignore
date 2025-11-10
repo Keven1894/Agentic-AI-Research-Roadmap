@@ -6,12 +6,14 @@
 
 # Experimental data (not ready for release)
 experiments/private/
+figures/private/
 data/raw/
 data/sensitive/
 
 # Paper drafts and submissions
 drafts/submitted/
 drafts/under-review/
+drafts/private/          # ⚠️ Private drafts with sensitive data (not pushed to GitHub)
 *.docx
 *.doc
 *.pages
@@ -20,6 +22,10 @@ drafts/under-review/
 notes/personal/
 internal/
 private/
+
+# Internal strategy documents
+DUAL_REPO_STRATEGY.md
+SETUP_COMPLETE.md
 
 # API keys and credentials
 .env

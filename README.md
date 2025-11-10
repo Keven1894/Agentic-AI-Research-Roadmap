@@ -65,7 +65,8 @@ Agentic-AI-Research-Roadmap/
 │   └── Research-Timeline-2025-2027.md # Detailed timeline and milestones
 ├── figures/                           # Diagrams and visualizations
 ├── drafts/
-│   └── workshop-paper-outline.md      # First workshop paper preparation
+│   ├── public/                        # ✅ Public outlines and roadmaps
+│   └── private/                       # 🔒 NOT in Git (sensitive drafts, local only)
 ├── experiments/                       # Experimental code (to be released)
 ├── LICENSE                           # CC BY-NC 4.0
 └── .gitignore
@@ -148,6 +149,27 @@ This framework is implemented and validated through a connected ecosystem of pro
 **Stage 4 (2027):** Monograph and curriculum development
 
 See [Research Timeline](docs/Research-Timeline-2025-2027.md) for detailed milestones.
+
+### 🔒 Privacy & IP Protection
+
+⚠️ **Note**: This project uses a **dual-repository strategy** to balance open science with IP protection.
+
+**This Repository (GitHub - Public)**
+- Framework methodology and conceptual materials
+- High-level documentation and guides
+- All `private/` folders are excluded via `.gitignore`
+
+**Full Repository (GitLab - Private)**
+- Complete research materials including experimental data
+- Detailed DIVA case study with metrics and analysis
+- All `private/` folders with sensitive content
+
+**Protected Content** (GitLab only):
+- `drafts/private/` - Full paper drafts with experimental data
+- `experiments/private/dataverse-diva/` - Complete DIVA experiments
+- `figures/private/dataverse-diva/` - All DIVA figures and charts
+
+For details, see [`DUAL_REPO_STRATEGY.md`](DUAL_REPO_STRATEGY.md).
 
 ## Expected Outcomes
 
