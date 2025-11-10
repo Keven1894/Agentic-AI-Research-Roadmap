@@ -5,15 +5,15 @@
 # ============================================
 
 # Experimental data (not ready for release)
-experiments/private/
-figures/private/
+# experiments/private/     # Tracked in GitLab
+# figures/private/         # Tracked in GitLab
 data/raw/
 data/sensitive/
 
 # Paper drafts and submissions
 drafts/submitted/
 drafts/under-review/
-drafts/private/          # ⚠️ Private drafts with sensitive data (not pushed to GitHub)
+# drafts/private/          # Tracked in GitLab
 *.docx
 *.doc
 *.pages
@@ -21,11 +21,11 @@ drafts/private/          # ⚠️ Private drafts with sensitive data (not pushed
 # Personal notes and internal documents
 notes/personal/
 internal/
-private/
+# private/                 # Tracked in GitLab
 
-# Internal strategy documents
-DUAL_REPO_STRATEGY.md
-SETUP_COMPLETE.md
+# Internal strategy documents (tracked in GitLab)
+# DUAL_REPO_STRATEGY.md
+# SETUP_COMPLETE.md
 
 # API keys and credentials
 .env
