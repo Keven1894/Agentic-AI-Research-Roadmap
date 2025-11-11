@@ -1,5 +1,5 @@
 {
-  "version": "2025-11-09",
+  "version": "2025-11-11",
   "collections": [
     {
       "name": "core",
@@ -7,13 +7,33 @@
       "paths": [
         "README.md",
         "CONTRIBUTING.md",
+        "CONTRIBUTORS.md",
         "LICENSE",
         "CITATION.cff",
         "docs/Agentic-AI-Research-Roadmap.md",
         "docs/Research-Timeline-2025-2027.md",
+        "docs/framework-foundations.md",
+        "docs/research-problems-and-positioning.md",
+        "docs/dual-helix-clarification.md",
+        "docs/START_HERE.md",
+        "docs/agentic-collaboration-guide.md",
+        "docs/cursor-quickstart-for-contributors.md",
         "docs/ZENODO_INTEGRATION.md",
         "docs/getting-started.md",
         "docs/co-agenticOS-integration-guide.md"
+      ]
+    },
+    {
+      "name": "collaboration",
+      "description": "Contribution guides, templates, and case study documentation.",
+      "paths": [
+        "docs/START_HERE.md",
+        "CONTRIBUTING.md",
+        "CONTRIBUTORS.md",
+        "docs/agentic-collaboration-guide.md",
+        "docs/cursor-quickstart-for-contributors.md",
+        "docs/case-studies/README.md",
+        ".github/PULL_REQUEST_TEMPLATE.md"
       ]
     },
     {
@@ -29,15 +49,19 @@
       "name": "archives",
       "description": "Historical transcripts and editorial summaries for provenance.",
       "paths": [
-        "archives/context.log",
-        "archives/EDITORIAL_REVIEW_SUMMARY.md"
+        "archives/EDITORIAL_REVIEW_SUMMARY.md",
+        "archives/inputRAW/dataverse-diva/INDEX.md",
+        "archives/inputRAW/dataverse-diva/00-PROJECT-OVERVIEW.md",
+        "archives/inputRAW/dataverse-diva/02-AGENT-DESIGN-PATTERNS.md",
+        "archives/inputRAW/dataverse-diva/07-LESSONS-LEARNED.md"
       ]
     },
     {
       "name": "figures",
       "description": "Visual specifications and diagram instructions.",
       "paths": [
-        "figures/dual-helix-diagram-spec.md"
+        "figures/dual-helix-diagram-spec.md",
+        "figures/memory-hierarchy-analogy-diagram.md"
       ]
     },
     {

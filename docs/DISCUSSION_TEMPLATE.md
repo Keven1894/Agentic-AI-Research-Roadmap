@@ -1,4 +1,4 @@
-# Welcome to Agentic-AI Lab — Origin & Vision
+# Welcome to Agentic-AI-Research-Roadmap — Origin & Vision
 
 **Pinned Discussion Post Template**
 
@@ -6,7 +6,7 @@
 
 ## 🎯 What is this repository?
 
-Welcome to the **Agentic-AI Lab**, home of the **Agentic-AI Engineering Framework** — the first systematic methodology for building production-grade AI agents that learn, document, and evolve through structured experience.
+Welcome to the **Agentic-AI-Research-Roadmap**, home of the **Agentic-AI Engineering Framework** — the first systematic methodology for building production-grade AI agents that learn, document, and evolve through structured experience.
 
 This is more than a code repository. It's:
 - 📚 An **open research lab** documenting a new paradigm in AI engineering

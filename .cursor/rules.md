@@ -6,12 +6,28 @@ These rules coordinate AI assistants and human contributors working inside this 
 
 Review the following before making substantive changes:
 
+**Core Framework Documents:**
 - `README.md` — primary project overview and mission.
 - `docs/Agentic-AI-Research-Roadmap.md` — authoritative framework description.
+- `docs/framework-foundations.md` — theoretical underpinnings and key questions.
+- `docs/research-problems-and-positioning.md` — academic positioning and research gaps.
+- `docs/dual-helix-clarification.md` — engineering vs. governance distinction.
+- `docs/agentic-collaboration-guide.md` — complete methodology for AI-augmented collaboration.
+
+**Collaboration & Contribution:**
+- `CONTRIBUTING.md` — contribution pathways (v2.0: agentic collaboration edition).
+- `CONTRIBUTORS.md` — attribution and recognition of all contributors.
+- `docs/agentic-collaboration-guide.md` — complete methodology for AI-augmented collaboration.
+- `docs/cursor-quickstart-for-contributors.md` — 17 copy-paste prompts for Cursor users.
+- `docs/case-studies/README.md` — case study template and submission guide.
+- `.github/PULL_REQUEST_TEMPLATE.md` — PR checklist for case studies.
+
+**Project Planning:**
 - `docs/Research-Timeline-2025-2027.md` — milestone and deliverable plan.
+
+**Metadata & Navigation:**
 - `meta/directory-index.yaml` — current directory layout and responsibilities.
 - `meta/search-manifest.json` — file collections for retrieval-augmented systems.
-- `CONTRIBUTING.md` — contribution workflow and documentation etiquette.
 
 When producing summaries or edits, cite the specific source document whenever possible.
 
@@ -73,5 +89,5 @@ Before adding new directories or large assets, record them in `meta/directory-in
 
 ---
 
-_Last updated: 2025-11-09_
+_Last updated: 2025-11-11_
 

@@ -1,32 +1,49 @@
 project:
   name: Agentic-AI-Research-Roadmap
-  version: 1.0.2
-  last_updated: 2025-11-10
+  version: 1.1.0
+  last_updated: 2025-11-11
   description: >
     Research program hub for the Agentic-AI Engineering Framework and related
-    documentation, timelines, and paper drafts.
+    documentation, timelines, and paper drafts. Addresses research gaps in
+    production-grade agentic AI engineering and lifecycle management.
 directories:
   root:
     purpose: Primary entry point for collaborators and citation metadata.
     key_files:
       - README.md
       - CONTRIBUTING.md
+      - CONTRIBUTORS.md
       - LICENSE
       - CITATION.cff
     notes: >
       These files must remain accessible at the repository root to preserve DOI
       integration, contribution policy, and licensing clarity.
+      CONTRIBUTING.md updated for agentic collaboration (v2.0).
+      CONTRIBUTORS.md tracks all project contributors.
   docs:
     purpose: Authoritative documentation, research roadmap, guides.
     key_files:
       - docs/Agentic-AI-Research-Roadmap.md
       - docs/Research-Timeline-2025-2027.md
+      - docs/framework-foundations.md
+      - docs/research-problems-and-positioning.md
+      - docs/dual-helix-clarification.md
+      - docs/START_HERE.md
+      - docs/agentic-collaboration-guide.md
+      - docs/cursor-quickstart-for-contributors.md
       - docs/getting-started.md
       - docs/co-agenticOS-integration-guide.md
       - docs/DISCUSSION_TEMPLATE.md
       - docs/ZENODO_INTEGRATION.md
+      - docs/case-studies/README.md
     notes: >
       All published documents should be referenced from README and .cursor rules.
+      Framework foundations establish theoretical underpinnings.
+      Research problems document positions framework in academic landscape.
+      Dual-helix clarification explains relationship with co-agenticOS.
+      Agentic collaboration guide teaches high-velocity AI-augmented methodology.
+      Cursor quickstart provides ready-to-use prompts for contributor onboarding.
+      Case studies README provides template and contribution process.
   drafts:
     purpose: In-progress manuscripts and outlines.
     key_files:
@@ -47,21 +64,30 @@ directories:
     purpose: Diagram specifications and design assets.
     key_files:
       - figures/dual-helix-diagram-spec.md
+      - figures/memory-hierarchy-analogy-diagram.md
       - figures/dataverse-diva/README.md
       - figures/dataverse-diva/llm-accuracy-comparison.md
       - figures/dataverse-diva/schema-impact-chart.md
       - figures/dataverse-diva/framework-validation-stages.md
       - figures/dataverse-diva/skills-matrix-progression.md
     notes: >
-      DIVA figure specs include LLM performance, schema impact, framework validation, and learning progression visualizations. Final renderings pending.
+      Diagram specifications for framework visualizations.
+      Memory hierarchy analogy (computer architecture → framework stages).
+      DIVA figure specs include LLM performance, schema impact, framework validation, and learning progression visualizations. 
+      Final renderings pending.
   archives:
     purpose: Historical transcripts, review summaries, and superseded artifacts.
     key_files:
-      - archives/context.log
       - archives/EDITORIAL_REVIEW_SUMMARY.md
+      - archives/inputRAW/dataverse-diva/INDEX.md
+      - archives/inputRAW/dataverse-diva/00-PROJECT-OVERVIEW.md
+      - archives/inputRAW/dataverse-diva/02-AGENT-DESIGN-PATTERNS.md
+      - archives/inputRAW/dataverse-diva/07-LESSONS-LEARNED.md
     notes: >
       Material here informs historical decisions; avoid modifying content except
       to append archival metadata.
+      inputRAW/dataverse-diva/ contains comprehensive DIVA project extraction (9 documents)
+      for research use and methodology reference.
   governance:
     purpose: Reserved for governance assets (rule templates, compliance logs).
     key_files: []
@@ -73,6 +99,12 @@ directories:
       - .cursor/rules.md
     notes: >
       Update after any structural change so automation follows current guidelines.
+  github:
+    purpose: GitHub configuration templates and workflows.
+    key_files:
+      - .github/PULL_REQUEST_TEMPLATE.md
+    notes: >
+      PR template ensures case study submissions are complete and follow standards.
 metadata:
   maintainers:
     - name: Dr. Boyuan (Keven) Guan

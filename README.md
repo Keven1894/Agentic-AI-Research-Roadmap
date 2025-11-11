@@ -1,4 +1,5 @@
-# Agentic-AI Lab — Engineering the Next Generation of Intelligent Systems
+# Agentic-AI-Research-Roadmap
+**Agentic-AI Engineering Framework to Build Reliable AI Agents**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17561541.svg)](https://doi.org/10.5281/zenodo.17561541)
 ![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
@@ -8,14 +9,16 @@
 **Author:** Dr. Boyuan (Keven) Guan  
 **Affiliation:** FIU Library & GIS Center  
 **First Public Release:** November 8, 2025  
-**Version:** 1.0.1  
+**Version:** 1.1.0  
 **DOI:** [10.5281/zenodo.17561541](https://doi.org/10.5281/zenodo.17561541)
 
 ---
 
 ## Mission
 
-**The Agentic-AI Lab explores how large-language-model agents can evolve through documented, reproducible, and production-grade workflows.** The goal is to make intelligent systems learn from real-world experience as human engineers do.
+**This repository explores how large-language-model agents can evolve through documented, reproducible, and production-grade workflows.** The goal is to make intelligent systems learn from real-world experience as human engineers do.
+
+**New here?** Start with **[START HERE](docs/START_HERE.md)** for quick onboarding! 🚀
 
 ## Overview
 
@@ -48,6 +51,16 @@ To bring AI from conversation to production, we must systematize how agents:
 - Evolve through structured feedback loops
 - Persist context across interactions
 
+## Framework Foundations
+
+The Agentic-AI Engineering Framework addresses a critical research gap: **the engineering lifecycle of production-grade agentic systems**. While most research focuses on agent capabilities (reasoning, planning, learning), our framework tackles the complementary problem of building agents that are maintainable, evolvable, accountable, and scalable.
+
+**Core Documents:**
+- **[Framework Foundations](docs/framework-foundations.md)** — Theoretical underpinnings and key questions
+- **[Research Problems & Positioning](docs/research-problems-and-positioning.md)** — Academic landscape and how our framework addresses known gaps
+- **[Dual-Helix Clarification](docs/dual-helix-clarification.md)** — Engineering strand (this repo) vs. Governance strand (co-agenticOS)
+- **[Agentic Collaboration Guide](docs/agentic-collaboration-guide.md)** — Complete methodology for working at AI-augmented velocity
+
 ## Research Vision
 
 Establish a **repeatable, scalable, and evaluable Agentic-AI engineering framework** that integrates LLM reasoning with traditional software engineering discipline, enabling sustainable AI engineering where AI systems:
@@ -59,17 +72,63 @@ Establish a **repeatable, scalable, and evaluable Agentic-AI engineering framewo
 
 ```
 Agentic-AI-Research-Roadmap/
-├── README.md                          # This file
-├── docs/
-│   ├── Agentic-AI-Research-Roadmap.md # Complete research roadmap
-│   └── Research-Timeline-2025-2027.md # Detailed timeline and milestones
-├── figures/                           # Diagrams and visualizations
-├── drafts/
-│   ├── public/                        # ✅ Public outlines and roadmaps
-│   └── private/                       # 🔒 NOT in Git (sensitive drafts, local only)
-├── experiments/                       # Experimental code (to be released)
-├── LICENSE                           # CC BY-NC 4.0
-└── .gitignore
+├── README.md                              # This file — Start here!
+├── CONTRIBUTING.md                        # How to contribute (v2.0 - Agentic Collaboration)
+├── CONTRIBUTORS.md                        # Recognition and attribution
+├── LICENSE                                # CC BY-NC 4.0
+├── CITATION.cff                           # Zenodo citation metadata
+├── DUAL_REPO_STRATEGY.md                  # GitHub (public) + GitLab (full) strategy
+│
+├── docs/                                  # 📚 Core Documentation
+│   ├── START_HERE.md                      # ⭐ Quick onboarding (read this first!)
+│   ├── Agentic-AI-Research-Roadmap.md     # Complete research roadmap
+│   ├── Research-Timeline-2025-2027.md     # Milestones and deliverables
+│   │
+│   ├── Framework Core (WHAT + WHY + HOW)
+│   ├── framework-foundations.md           # Theoretical underpinnings (F1-F7)
+│   ├── research-problems-and-positioning.md # Academic landscape and positioning
+│   ├── dual-helix-clarification.md        # Engineering vs. Governance strands
+│   ├── agentic-collaboration-guide.md     # Complete methodology (11K words!)
+│   │
+│   ├── case-studies/                      # 🔬 Production Validations
+│   │   ├── README.md                      # Case study template and guide
+│   │   └── dataverse-diva.md              # Digital libraries (Stage 2, 3+ months)
+│   │
+│   └── Supporting Documentation
+│       ├── getting-started.md
+│       ├── co-agenticOS-integration-guide.md
+│       ├── DISCUSSION_TEMPLATE.md
+│       └── ZENODO_INTEGRATION.md
+│
+├── figures/                               # 📊 Diagram Specifications
+│   ├── dual-helix-diagram-spec.md         # Engineering + Governance strands
+│   ├── memory-hierarchy-analogy-diagram.md # Computer architecture analogy
+│   └── private/                           # 🔒 NOT in Git (DIVA figures)
+│
+├── .github/                               # GitHub Configuration
+│   └── PULL_REQUEST_TEMPLATE.md           # Case study submission checklist
+│
+├── meta/                                  # 🗂️ Project Metadata
+│   ├── directory-index.yaml               # Directory structure and purpose
+│   ├── search-manifest.json               # Document collections for RAG/search
+│   └── README.md                          # Metadata documentation
+│
+├── .cursor/                               # 🤖 AI Collaboration Rules
+│   └── rules.md                           # Canonical references and editing policy
+│
+├── archives/                              # 📦 Historical Materials
+│   ├── EDITORIAL_REVIEW_SUMMARY.md
+│   └── inputRAW/dataverse-diva/           # DIVA extraction (9 detailed docs)
+│
+├── drafts/                                # 📝 Pre-Publication Materials
+│   ├── public/                            # ✅ Shareable outlines and roadmaps
+│   └── private/                           # 🔒 NOT in Git (full drafts, sensitive)
+│
+├── experiments/                           # 🧪 Experimental Code & Studies
+│   └── private/                           # 🔒 NOT in Git (DIVA experiments)
+│
+└── temp/                                  # 🗃️ Working Documents & Summaries
+    └── [Session summaries and documentation]
 ```
 
 ## Experimental Domains
@@ -98,6 +157,20 @@ Plan → Implement → Verify → Document → Summarize → Iterate
 - `daily/` — Auto-summaries of activity and changes
 - **CI/CD + Changesets** — Continuous integration with changelog tracking
 - **Documentation Site** — Public transparency and collaboration
+
+## How to Contribute
+
+**Want to contribute?** We welcome case studies, research collaborations, and community engagement!
+
+**Quick Links:**
+- 📖 **[CONTRIBUTING.md](CONTRIBUTING.md)** — Contribution pathways and process
+- 🤝 **[Case Studies Guide](docs/case-studies/README.md)** — Submit your framework validation
+- 🎯 **[Agentic Collaboration Guide](docs/agentic-collaboration-guide.md)** — Learn the high-velocity methodology
+- 🌟 **[CONTRIBUTORS.md](CONTRIBUTORS.md)** — See who's involved and how you'll be credited
+
+**New to the framework?** Start with **[START HERE](docs/START_HERE.md)** for a guided onboarding!
+
+---
 
 ## Collaboration
 
@@ -191,7 +264,7 @@ If you reference this framework or methodology, please cite:
   title = {Agentic-AI Lab: Engineering the Next Generation of Intelligent Systems},
   year = {2025},
   publisher = {Zenodo},
-  version = {1.0.1},
+  version = {1.1.0},
   doi = {10.5281/zenodo.17561541},
   url = {https://doi.org/10.5281/zenodo.17561541}
 }
@@ -225,5 +298,5 @@ Under the following terms:
 
 *This repository is a living research project. Contributions, collaborations, and feedback are welcome.*
 
-**Last Updated:** November 8, 2025
+**Last Updated:** November 11, 2025
 
