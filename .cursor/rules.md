@@ -80,12 +80,50 @@ Before adding new directories or large assets, record them in `meta/directory-in
 - When adding new research assets, provide at least a short synopsis in `docs/` or `meta/`.
 - Coordinate paper drafts in `drafts/`; mark version and intended venue.
 
-## 8. Disallowed Actions
+## 8. Dual Repository .gitignore Management
+
+**CRITICAL:** This project maintains separate `.gitignore` files for GitLab (private) and GitHub (public).
+
+**Process for pushing to different remotes:**
+
+**For GitLab (private):**
+```bash
+# Ensure GitLab version is active
+mv .gitignore .gitignore.github.backup  # if GitHub version is active
+mv .gitignore.gitlab.backup .gitignore  # restore GitLab version
+git add .gitignore
+git commit -m "chore: swap to GitLab gitignore"
+git push gitlab main
+```
+
+**For GitHub (public):**
+```bash
+# Swap to GitHub version
+mv .gitignore .gitignore.gitlab.backup
+mv .gitignore.github.backup .gitignore
+git add .gitignore
+git commit -m "chore: swap to GitHub gitignore for public release"
+git push origin main
+```
+
+**Key differences:**
+- **GitLab version:** Comments out private paths (tracks them)
+- **GitHub version:** Uncomments private paths (ignores them)
+
+**Files involved:**
+- `.gitignore` (active)
+- `.gitignore.gitlab.backup` (GitLab version backup)
+- `.gitignore.github.backup` (GitHub version backup)
+
+**NEVER manually edit .gitignore differences** — use the swap process to maintain consistency.
+
+## 9. Disallowed Actions
 
 - Moving or renaming root metadata files.
 - Deleting entries from manifest files without updating accompanying documentation.
 - Introducing proprietary or sensitive data into the repository.
 - Overwriting archived content.
+- **Manually editing .gitignore without using the backup swap process.**
 
 ---
 
