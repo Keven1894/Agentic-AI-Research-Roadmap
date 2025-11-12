@@ -20,7 +20,9 @@
         "docs/cursor-quickstart-for-contributors.md",
         "docs/ZENODO_INTEGRATION.md",
         "docs/getting-started.md",
-        "docs/co-agenticOS-integration-guide.md"
+        "docs/co-agenticOS-integration-guide.md",
+        "docs/releases/README.md",
+        "docs/releases/v1.0.2.md"
       ]
     },
     {

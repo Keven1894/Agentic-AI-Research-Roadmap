@@ -1,6 +1,6 @@
 project:
   name: Agentic-AI-Research-Roadmap
-  version: 1.1.0
+  version: 1.0.2
   last_updated: 2025-11-11
   description: >
     Research program hub for the Agentic-AI Engineering Framework and related
@@ -36,6 +36,8 @@ directories:
       - docs/DISCUSSION_TEMPLATE.md
       - docs/ZENODO_INTEGRATION.md
       - docs/case-studies/README.md
+      - docs/releases/README.md
+      - docs/releases/v1.0.2.md
     notes: >
       All published documents should be referenced from README and .cursor rules.
       Framework foundations establish theoretical underpinnings.
@@ -44,6 +46,7 @@ directories:
       Agentic collaboration guide teaches high-velocity AI-augmented methodology.
       Cursor quickstart provides ready-to-use prompts for contributor onboarding.
       Case studies README provides template and contribution process.
+      Releases folder contains detailed release notes for all major versions.
   drafts:
     purpose: In-progress manuscripts and outlines.
     key_files:

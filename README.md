@@ -9,7 +9,7 @@
 **Author:** Dr. Boyuan (Keven) Guan  
 **Affiliation:** FIU Library & GIS Center  
 **First Public Release:** November 8, 2025  
-**Version:** 1.1.0  
+**Version:** 1.0.2  
 **DOI:** [10.5281/zenodo.17561541](https://doi.org/10.5281/zenodo.17561541)
 
 ---
@@ -92,7 +92,11 @@ Agentic-AI-Research-Roadmap/
 │   │
 │   ├── case-studies/                      # 🔬 Production Validations
 │   │   ├── README.md                      # Case study template and guide
-│   │   └── dataverse-diva.md              # Digital libraries (Stage 2, 3+ months)
+│   │   └── dataverse-diva.md              # Digital libraries (Stage 2, 1+ month)
+│   │
+│   ├── releases/                          # 📦 Release Notes
+│   │   ├── README.md                      # Version history
+│   │   └── v1.0.2.md                      # Latest release notes
 │   │
 │   └── Supporting Documentation
 │       ├── getting-started.md
