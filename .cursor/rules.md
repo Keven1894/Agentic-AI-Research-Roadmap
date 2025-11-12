@@ -80,50 +80,41 @@ Before adding new directories or large assets, record them in `meta/directory-in
 - When adding new research assets, provide at least a short synopsis in `docs/` or `meta/`.
 - Coordinate paper drafts in `drafts/`; mark version and intended venue.
 
-## 8. Dual Repository .gitignore Management
+## 8. Dual Repository Strategy
 
-**CRITICAL:** This project maintains separate `.gitignore` files for GitLab (private) and GitHub (public).
+**CRITICAL:** This project uses **separate physical folders** for public (GitHub) and private (GitLab) work:
 
-**Process for pushing to different remotes:**
+- **`agentic-ai-research-roadmap-github/`** (this folder) — Public repository
+  - Remote: `origin` → https://github.com/Keven1894/Agentic-AI-Research-Roadmap.git
+  - Content: Public documentation, framework, case studies
+  - History: Private files removed (cleaned)
+  - Push here: Public-ready content only
 
-**For GitLab (private):**
-```bash
-# Ensure GitLab version is active
-mv .gitignore .gitignore.github.backup  # if GitHub version is active
-mv .gitignore.gitlab.backup .gitignore  # restore GitLab version
-git add .gitignore
-git commit -m "chore: swap to GitLab gitignore"
-git push gitlab main
-```
+- **`agentic-ai-research-roadmap-gitlab/`** (separate folder) — Private repository
+  - Remote: `gitlab` → https://gitlab.com/keven1894/agentic-ai-research-roadmap-private.git
+  - Content: Full content including private experiments, drafts, figures
+  - History: Complete with all private files
+  - Push here: All work including private content
 
-**For GitHub (public):**
-```bash
-# Swap to GitHub version
-mv .gitignore .gitignore.gitlab.backup
-mv .gitignore.github.backup .gitignore
-git add .gitignore
-git commit -m "chore: swap to GitHub gitignore for public release"
-git push origin main
-```
+**Synchronization:**
+- Manager agent handles syncing public content between folders
+- Manual copying not recommended (use manager agent)
 
-**Key differences:**
-- **GitLab version:** Comments out private paths (tracks them)
-- **GitHub version:** Uncomments private paths (ignores them)
-
-**Files involved:**
-- `.gitignore` (active)
-- `.gitignore.gitlab.backup` (GitLab version backup)
-- `.gitignore.github.backup` (GitHub version backup)
-
-**NEVER manually edit .gitignore differences** — use the swap process to maintain consistency.
+**This folder (GitHub) should NEVER contain:**
+- `experiments/private/`
+- `figures/private/`
+- `drafts/private/`
+- `private/`
+- `DUAL_REPO_STRATEGY.md`
+- `SETUP_COMPLETE.md`
 
 ## 9. Disallowed Actions
 
 - Moving or renaming root metadata files.
 - Deleting entries from manifest files without updating accompanying documentation.
-- Introducing proprietary or sensitive data into the repository.
+- **Introducing proprietary or sensitive data into this public repository.**
 - Overwriting archived content.
-- **Manually editing .gitignore without using the backup swap process.**
+- Manually syncing between GitHub/GitLab folders (use manager agent).
 
 ---
 
