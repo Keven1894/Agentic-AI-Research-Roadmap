@@ -256,7 +256,7 @@ This framework is part of a connected ecosystem:
 
 | Repository | Role | Description |
 |------------|------|-------------|
-| **[Agentic-AI-Research-Roadmap](https://github.com/Keven1894/Agentic-AI-Research-Roadmap)** | 🎓 Research & Framework | This repository - research + AgentLoom framework |
+| **[AgentLoom](https://github.com/Keven1894/AgentLoom)** | 🎓 Research & Framework | This repository - research + AgentLoom framework |
 | **[co-agenticOS](https://github.com/Keven1894/co-agenticOS)** | 🧠 Governance & Runtime | Operational standards, coordination protocols, safety boundaries |
 
 ### Relationship
@@ -329,7 +329,7 @@ If you use AgentLoom or reference this research, please cite:
 ```bibtex
 @software{guan2025agenticai,
   author = {Guan, Boyuan (Keven)},
-  title = {Agentic-AI Research Roadmap: Building Reliable AI Agents Through Engineering and Governance},
+  title = {AgentLoom Framework & Research: Building Trustworthy AI Agents Through Dual-Helix Architecture (Learning + Governance)},
   year = {2025},
   publisher = {Zenodo},
   version = {1.1.0},
@@ -347,7 +347,7 @@ For AgentLoom framework specifically:
   year = {2025},
   publisher = {GitHub},
   version = {3.0},
-  url = {https://github.com/Keven1894/Agentic-AI-Research-Roadmap/tree/main/agentloom-framework}
+  url = {https://github.com/Keven1894/AgentLoom/tree/main/agentloom-framework}
 }
 ```
 
@@ -359,7 +359,7 @@ For AgentLoom framework specifically:
 Lead Developer & Research Engineer  
 FIU Library & GIS Center  
 📧 <bguan@fiu.edu>  
-🌐 <https://dataversedev.fiu.edu/ai/>
+🌐 <https://giscloud.fiu.edu/gis/about/faculty-and-staff/boyuan-guan/>
 
 ---
 
