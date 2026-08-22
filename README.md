@@ -112,7 +112,8 @@ difference as **intentional**, not accidental drift.
 4. **Validators enforce** → `make validate-all` (8 Tier-A rules + KG integrity)
 
 Architecture details: [`docs/builder/architecture/agentloom-architecture.md`](docs/builder/architecture/agentloom-architecture.md)  
-Propose-review protocol: [`docs/builder/protocols/propose-review-protocol.md`](docs/builder/protocols/propose-review-protocol.md)
+Propose-review protocol: [`docs/builder/protocols/propose-review-protocol.md`](docs/builder/protocols/propose-review-protocol.md)  
+Memory reconstruction: [`docs/builder/architecture/memory-reconstruction.md`](docs/builder/architecture/memory-reconstruction.md)
 
 ---
 

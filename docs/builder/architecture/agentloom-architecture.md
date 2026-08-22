@@ -62,5 +62,6 @@ This is the load-bearing claim: *machine-executable protocols, not suggestive in
 ## See also
 
 - `kg-node-schema.md` — the formal schema for skill / knowledge / behavior nodes
+- `memory-reconstruction.md` — how an agent's *working state* survives a change of machine or host, and why identity is derived rather than transferred
 - `propose-review-protocol.md` — how the dual-helix is operationalized day-to-day
 - `governance-tiers.md` — the layered enforcement model (Tier A AST/lint, Tier B test-time, Tier C process/git-state)
